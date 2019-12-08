@@ -12,7 +12,7 @@ namespace PetrikGitKozos
         static void Main(string[] args)
         {
             Color szin = Color.Green;
-            string szoveg = "Surprise!";
+            string szoveg = "Másik szöveg!";
 
             Form1 f = new Form1(szin, szoveg);
             System.Windows.Forms.Application.Run(f);
